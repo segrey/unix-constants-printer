@@ -4,7 +4,7 @@
 #include <errno.h>
 
 void printValue(char* constName, const long constValue) {
-  printf("%s, decimal=%ld, unsigned long hex=0x%04lx, unsigned int hex=0x%04x\n",
+  printf("%s, decimal=%ld, unsigned long hex=0x%08lx, unsigned int hex=0x%08x\n",
     constName, constValue, constValue, (int)constValue);
 }
 
