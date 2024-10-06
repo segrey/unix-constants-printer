@@ -8,7 +8,7 @@ void printValue(char* constName, const long constValue) {
     constName, constValue, constValue, (int)constValue);
 }
 
-int main(int argc, char *argv[]) {
+int main() {
   printValue("O_WRONLY", O_WRONLY); // fcntl.h
   printValue("O_RDWR", O_RDWR); // fcntl.h
   printValue("POLLIN", POLLIN); // poll.h
